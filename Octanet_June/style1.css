@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #172d13;
+  color: white;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #172d13;
+  padding: 30px 50px; /* Increased padding for a larger menu bar */
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.2); /* Shadow border */
+}
+
+
+.logo h3 {
+  font-size: 1cm; /* Increased font size */
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 50px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.7cm; /* Increased font size */
+}
+
+nav ul li:hover {
+  background: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header-buttons .btn, .header-buttons .bttn {
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 23px; /* Increased font size */
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  background: none;
+  color: white;
+}
+
+.bttn {
+  background-color: #d76f30;
+  color: white;
+  border-radius: 5px;
+}
+
+.bttn:hover, .btn:hover {
+  background: black;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 80px); /* Full height minus header height */
+}
+
+.landing-page .content {
+  max-width: 900px; /* Increased max-width for better readability */
+  margin-bottom: 150px;
+}
+
+.landing-page p {
+  color: #6bb77b;
+  font-size: 0.8cm; /* Increased font size */
+  line-height: 1.5;
+}
+
+.landing-page h1 {
+  font-size: 2cm; /* Increased font size */
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.landing-page .text {
+  margin-top: 10px;
+  font-size: 0.7cm; /* Increased font size */
+  line-height: 1.5;
+}
+
+.landing-page .get, .landing-page .learn {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 170px; /* Increased width */
+  height: 60px; /* Increased height */
+  font-size: 23px; /* Increased font size */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing-page .get {
+  background-color: #d76f30;
+  color: white;
+}
+
+.landing-page .learn {
+  background: none;
+  border: 1px solid #d76f30;
+  color: #d76f30;
+}
+
+.landing-page .get:hover, .landing-page .learn:hover {
+  background: black;
+}
